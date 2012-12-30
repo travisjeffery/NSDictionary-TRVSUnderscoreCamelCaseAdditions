@@ -8,6 +8,16 @@ Category on NSDictionary providing some methods for converting the dictionary's 
 @end
 ```
 
+``` objective-c
+# E.g.
+
+[@{ @"user_name": @"travisjeffery", @"user_id" : @"Numero Uno" } dictionaryWithCamelCaseKeys];
+# =>
+@{ @"userName" : @"travisjeffery", @"userId" : @"Numero Uno"};
+
+[@{ @"userName" : @"travisjeffery", @"userId" : @"Numero Uno"} dictionaryWithUnderscoreKeys];
+# =>
+@{ @"user_name": @"travisjeffery", @"user_id" : @"Numero Uno" };
 ### Install
 
 Available as the Cocoapod `NSDictionary+TRVSUnderscoreCamelCaseAdditions`, or just use the `NSDictionary+TRVSUnderscoreCamelCaseAdditions.{m,h}` files.
