@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "Convert NSDictionary keys to/from under_score/camelCase. Useful when working with JSON APIs, etc."
   s.homepage     = "https://github.com/travisjeffery/NSDictionary-TRVSUnderscoreCamelCaseAdditions"
-  s.license      = 'MIT'
+  s.license      = { :type => 'MIT', :file => 'LICENSE'}
   s.author       = { "Travis Jeffery" => "travisjeffery@gmail.com" }
   s.source       = { :git => "https://github.com/travisjeffery/NSDictionary-TRVSUnderscoreCamelCaseAdditions.git", :tag => "v0.0.1" }
   s.ios.deployment_target = '5.0'
