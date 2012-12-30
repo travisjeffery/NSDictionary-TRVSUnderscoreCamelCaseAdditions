@@ -9,8 +9,6 @@ Category on NSDictionary providing some methods for converting the dictionary's 
 ```
 
 ``` objective-c
-# E.g.
-
 [@{ @"user_name": @"travisjeffery", @"user_id" : @"Numero Uno" } dictionaryWithCamelCaseKeys];
 # =>
 @{ @"userName" : @"travisjeffery", @"userId" : @"Numero Uno"};
