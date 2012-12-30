@@ -18,6 +18,8 @@ Category on NSDictionary providing some methods for converting the dictionary's 
 [@{ @"userName" : @"travisjeffery", @"userId" : @"Numero Uno"} dictionaryWithUnderscoreKeys];
 # =>
 @{ @"user_name": @"travisjeffery", @"user_id" : @"Numero Uno" };
+```
+
 ### Install
 
 Available as the Cocoapod `NSDictionary+TRVSUnderscoreCamelCaseAdditions`, or just use the `NSDictionary+TRVSUnderscoreCamelCaseAdditions.{m,h}` files.
